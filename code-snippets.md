@@ -88,3 +88,23 @@ const useFetch = (url) => {
 };
 export default useFetch;
 ```
+
+# Modal Component
+
+    Description: A component for displaying overlay modals.
+
+    Use case: Displaying a notification modal.
+
+    Code Snippet:
+
+```
+import React from 'react';
+const Modal = ({ isOpen, onClose, children }) => {
+  return isOpen ? (
+              {children}        Close          
+  ) : null;
+};
+export default Modal;
+```
+
+
